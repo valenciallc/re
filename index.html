@@ -854,14 +854,8 @@
 
     <!-- نموذج طلب تجديد عقد العمل -->
     <div class="content-container no-break">
-        <!-- رأس الشركة -->
-        <div style="text-align: center; margin-bottom: 15px; padding-bottom: 5px; border-bottom: 2px solid #c19a53;">
-            <div class="company-name">شركة فالنسيا لتجارة الرخام والحجر الطبيعي</div>
-            <div class="company-subtitle">قسم الموارد البشرية</div>
-        </div>
-
         <div class="document-info">
-            <div class="document-date" id="current-date">--/--/----</div>
+            <div class="document-date" id="current-date"></div>
             <div class="document-title">طلب تجديد عقد العمل</div>
             <div style="text-align: center; flex: 1;">
                 <div style="font-size: 8pt; color: #4a5568; margin-bottom: 1px;">رقم الطلب</div>
@@ -1001,22 +995,6 @@
                 <div style="display: flex; gap: 6px;">
                     <div style="flex: 1;">
                         <div class="signature-box">
-                            <strong>الاسم:</strong>
-                            <div class="signature-line"></div>
-                            <div>توقيع الموظف</div>
-                        </div>
-                    </div>
-
-                    <div style="flex: 1;">
-                        <div class="signature-box">
-                            <strong>الاسم:</strong>
-                            <div class="signature-line"></div>
-                            <div>توقيع المسؤول عن الموظف</div>
-                        </div>
-                    </div>
-
-                    <div style="flex: 1;">
-                        <div class="signature-box">
                             <strong>توقيع المدير العام</strong>
                             <div class="signature-line"></div>
                         </div>
@@ -1024,7 +1002,13 @@
 
                     <div style="flex: 1;">
                         <div class="signature-box">
-                            <strong>توقيع قسم المالية</strong>
+                            <strong>توقيع مدير المالية</strong>
+                        </div>
+                    </div>
+
+                    <div style="flex: 1;">
+                        <div class="signature-box">
+                            <strong>توقيع مدير القسم</strong>
                             <div style="margin-top: 1px; font-size: 1pt; color: #c19a53;">
                                 <i class="fas fa-stamp"></i>
                             </div>
@@ -1032,14 +1016,6 @@
                     </div>
                 </div>
             </div>
-
-            <!-- تذييل الصفحة -->
-            <div style="text-align: center; margin-top: 15px; font-size: 8pt; color: #718096; border-top: 1px solid #e2e8f0; padding-top: 5px;" class="no-print">
-                <p>وتفضلوا بقبول فائق الاحترام...</p>
-                <p>جميع الحقوق محفوظة © شركة فالنسيا لتجارة الرخام والحجر الطبيعي <span id="current-year"></span></p>
-            </div>
-        </div>
-    </div>
 
     <script>
         // =============================================
